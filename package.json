@@ -1,0 +1,32 @@
+{
+  "name": "@qntx/option-ts",
+  "version": "0.1.0",
+  "description": "A TypeScript library for option pricing",
+  "type": "module",
+  "author": "ΣX",
+  "license": "MIT",
+  "keywords": [
+    "option-pricing",
+    "black-scholes",
+    "typescript",
+    "finance"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qntx/option-ts.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "clean": "rm -rf lib",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.0",
+    "typescript": "~5.8.3"
+  },
+  "dependencies": {
+    "mathjs": "^14.5.3"
+  }
+}

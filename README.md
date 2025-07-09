@@ -1,2 +1,7 @@
-# option-ts
-Option pricing models
+# Option
+
+Option pricing model.
+
+## License
+
+MIT
